@@ -4,12 +4,41 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Success!</title>
-  <link rel="stylesheet" href="./assets/css/success.css" />
+  <!-- <link rel="stylesheet" href="./assets/css/success.css" /> -->
+  <style>
+    * {
+      box-sizing: border-box;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    html, body {
+      padding: 0;
+      margin: 0;
+      background: #FFF;
+    }
+    .container {
+      width: 100%;
+      min-height: 100vh;
+      max-width: 500px;
+      margin: auto;
+      overflow: hidden;
+      background: rgb(249, 249, 249);
+    }
+    .title {
+      text-align: center;
+      color: #5cb85c;
+    }
+    .order-id {
+      white-space: pre-line;
+      font-weight: 500;
+      text-align: center;
+    }
+  </style>
 </head>
 
 <body>
   <div class="container">
     <h1 class="title">Success!</h1>
+    <h2 class="order-id"></h2>
   </div>
 
   <script src="./dist/success.bundle.js"></script>
