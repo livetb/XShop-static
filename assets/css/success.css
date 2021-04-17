@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+html, body {
+  padding: 0;
+  margin: 0;
+  background: #FFF;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  max-width: 500px;
+  margin: auto;
+  overflow: hidden;
+  background: rgb(249, 249, 249);
+}
+
+.title {
+  text-align: center;
+  color: #5cb85c;
+}
